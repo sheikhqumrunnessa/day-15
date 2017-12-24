@@ -53,108 +53,112 @@
 
 
 
-    /*Arithmetic Operator
-    Binary(+,-,*,/,%)
-     Unary(++,--,(-))-----
-    Assignment Operator
-     =, +=, -=, *=, /=, %=
-    Conditional Operator
-    >, >=, <, <=, !=, ===, !==
-    Logical Operator
-    &&, ||, !
-*/
-//$x=10;
-//$y=20;
-//echo ($x+$y);
-//echo ('<br/>');
-//echo ($x-$y);
-//echo ('<br/>');
-//echo ($x*$y);
-//echo ('<br/>');
-//echo ($x/$y);
-//echo ('<br/>');
-//echo ($x%$y);
-//echo ('<br/>');
+    //Arithmetic Operator
+    //Binary(+,-,*,/,%)
+    // Unary(++,--,(-))-----
+    //Assignment Operator
+    // =, +=, -=, *=, /=, %=
+    //>, >=, <, <=, !=, ===, !==
+    //Logical Operator
+    //&&, ||, !
+// Arithmetic Operator
+//    Binary(+,-,*,/,%)
+        $x=10;
+        $y=20;
+        echo ($x+$y);
+        echo ('<br/>');
+        echo ($x-$y);
+        echo ('<br/>');
+        echo ($x*$y);
+        echo ('<br/>');
+        echo ($x/$y);
+        echo ('<br/>');
+        echo ($x%$y);
+        echo ('<br/>');
 //Unary
-//$x=10;
-//$y=20;
-//echo ($x++);
-//echo ('<br/>');
-//echo ($x);
-//echo ('<br/>');
-//echo (++$x);
-//echo ('<br/>');
-//echo ($x);
-//echo ('<br/>');
-//echo ($x--);
-//echo ('<br/>');
-//echo ($x);
-//echo ('<br/>');
-//echo (--$x);
-//echo ('<br/>');
-//echo ($x);
+        $x=10;
+        $y=20;
+        echo ($x++);
+        echo ('<br/>');
+        echo ($x);
+        echo ('<br/>');
+        echo (++$x);
+        echo ('<br/>');
+        echo ($x);
+        echo ('<br/>');
+        echo ($x--);
+        echo ('<br/>');
+        echo ($x);
+        echo ('<br/>');
+        echo (--$x);
+        echo ('<br/>');
+        echo ($x);
+        echo ('<br/>');
 //-----------------------------
   //Assignment Operator
 
-//$x=40;
-//$y=40;
-//echo ($x+=$y);
-//echo ('<br/>');
-//echo ($x-=$y);
-//echo ('<br/>');
-//echo ($x*=$y);
-//echo ('<br/>');
-//echo ($x/=$y);
-//echo ('<br/>');
-//echo ($x%=$y);
-//echo ('<br/>');
+        $x=40;
+        $y=40;
+        echo ($x+=$y);
+        echo ('<br/>');
+        echo ($x-=$y);
+        echo ('<br/>');
+        echo ($x*=$y);
+        echo ('<br/>');
+        echo ($x/=$y);
+        echo ('<br/>');
+        echo ($x%=$y);
+        echo ('<br/>');
 //-------------
 //Conditional operator
-//$x=10;
-//$y=20;
-//echo($x>$Y);
-//echo('<br/>');
-//echo($x>=$y);
-//echo('<br/>');
-//echo($x<$y);
-//echo('<br/>');
-//echo($x==$y);
-//echo('<br/>');
-//echo($x!=$y);
-//echo('<br/>');
-//$x='20';
-//$x=20;
-//echo($x===$y);
-//echo('<br/>');
-//echo($x!==$y);
-//echo('<br/>');
+            $x=10;
+            $y=20;
+            echo($x>$y);
+            echo('<br/>');
+            echo($x>=$y);
+            echo('<br/>');
+            echo($x<$y);
+            echo('<br/>');
+            echo($x<=$y);
+            echo('<br/>');
+            echo($x==$y);
+            echo('<br/>');
+            echo($x!=$y);
+            echo('<br/>');
+            $x='20';
+            $x=20;
+            echo($x===$y);
+            echo('<br/>');
+            echo($x!==$y);
+            echo('<br/>');
 //-------------------------------
-//Logical Operator
-//$x=10;
-//$y=20;
-//$z=30;
-//echo(($x>$y)&&($x>$y));
-//echo('<br/>');
-//echo(($x>$y)&&($x<$y));
-//echo('<br/>');
-//echo(($x<$y)&&($x>$y));
-//echo('<br/>');
-//echo(($x<$y)&&($x<$y));
-//echo('<br/>');
-//echo(($x>$y)||($x>$y));
-//echo('<br/>');
-//echo(($x>$y)||($x<$y));
-//echo('<br/>');
-//echo(($x<$y)||($x>$y));
-//echo('<br/>');
-//echo(($x<$y)||($x<$y));
-//echo('<br/>');
+echo 'Logical Operator';
+        $x=10;
+        $y=20;
+        $z=30;
+        echo(($x>$y)&&($y>$z));
+        echo('<br/>');
+        echo(($x>$y)&&($y<$z));
+        echo('<br/>');
+        echo(($x<$y)&&($y>$z));
+        echo('<br/>');
+        echo(($x<$y)&&($y<$z));
+        echo('<br/>');
+        echo(($x>$y)||($y>$z));
+        echo('<br/>');
+        echo(($x>$y)||($y<$z));
+        echo('<br/>');
+        echo(($x<$y)||($y>$z));
+        echo('<br/>');
+        echo(($x<$y)||($y<$z));
+        echo('<br/>');
 
-//$a=true;
-//echo (!a);
-
-//$a=false;
-//echo (!a);
+        $a=true;
+        echo (!$a);
+        echo('<br/>');
+        $a=false;
+        echo (!$a);
+        echo('<br/>');
 //----------------------------------
 //statement
 /*
@@ -171,65 +175,80 @@
      * foreach
  *
  */
- //Conditional Statement
+ echo 'Conditional Statement';
 
-//$x=10;
-//$y=20;
-//$z =$x+$y;
-//if($x>$y){
-//    $z=$x+$y;
-//    echo $z;
-//}
+        $x=10;
+        $y=20;
+        $z =$x+$y;
+        if($x>$y){
+            echo $z;
+        }
+echo('<br/>');
+        $x=10;
+        $y=20;
+        if($x>$y){
+        echo ('Hello World');
+        }else{
+        echo ('Hello Javascript');
+        }
 
-//$x=10;
-//$y=20;
-//if($x>$y){
-//echo ('Hello World');
-//}else{
-//echo ('Hello Javascript');
-//}
-
-
-//$x=100;
-//$y=20;
-//$z=40;
-//if($x>$y){
-//    echo ('Hello World');
-//}else if ($y>$z){
-// echo ('Hello Javascript');
-//}else if ($z<$x){
-//    echo ('Hello BITM');
-//}else{
-//    echo ('Hello Dhaka');
-//}
-//
+echo('<br/>');
+            $x=100;
+            $y=20;
+            $z=40;
+            if($x>$y){
+                echo ('Hello World');
+            }else if ($y>$z){
+             echo ('Hello Javascript');
+            }else if ($z<$x){
+                echo ('Hello BITM');
+            }else{
+                echo ('Hello Dhaka');
+            }
 
 
-//$x=10;
-//switch ($x) {
-//    case 5:
-//        echo('Hello World');
-//        break;
-//    case 10:
-//        echo('Hello Bangladesh');
-//        break;
-//    case 15:
-//        echo('Hello Dhaka');
-//        break;
-//    default:
-//        echo ('Hello Khulna');
-//}
+echo('<br/>');
+        $x=10;
+        switch ($x) {
+            case 5:
+                echo('Hello World');
+                break;
+            case 10:
+                echo('Hello Bangladesh');
+                break;
+            case 15:
+                echo('Hello Dhaka');
+                break;
+            default:
+                echo ('Hello Khulna');
+        }
+echo('<br/>');
+
+           $x;
+              for ($x=10; $x<=15; $x++){
+           echo('Hello World<br/>');
+        }
+         $x=10;
+        while ($x<15){
+            echo('Hello World<br/>');
+            $x++
+        }
+
+            $x=10;
+             do {
+    echo('Hello World<br/>');
+           $x++
+        }while ($x<=15)
 
 
 
 
-
-?>
-
+//?>
+<!---->
 <?php
-
-function demo(){
-    echo "Hello World";
-}
-demo();
-?>
+//
+//function demo(){
+//    echo "Hello World";
+//}
+//demo();
+//?>
