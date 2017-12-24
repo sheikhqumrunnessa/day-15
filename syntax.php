@@ -55,7 +55,7 @@
 
     /*Arithmetic Operator
     Binary(+,-,*,/,%)
-     Unary(++,--,(-))
+     Unary(++,--,(-))-----
     Assignment Operator
      =, +=, -=, *=, /=, %=
     Conditional Operator
@@ -65,29 +65,97 @@
 */
 //$x=10;
 //$y=20;
-//echo
+//echo ($x+$y);
+//echo ('<br/>');
+//echo ($x-$y);
+//echo ('<br/>');
+//echo ($x*$y);
+//echo ('<br/>');
+//echo ($x/$y);
+//echo ('<br/>');
+//echo ($x%$y);
+//echo ('<br/>');
+//Unary
+//$x=10;
+//$y=20;
+//echo ($x++);
+//echo ('<br/>');
+//echo ($x);
+//echo ('<br/>');
+//echo (++$x);
+//echo ('<br/>');
+//echo ($x);
+//echo ('<br/>');
+//echo ($x--);
+//echo ('<br/>');
+//echo ($x);
+//echo ('<br/>');
+//echo (--$x);
+//echo ('<br/>');
+//echo ($x);
+//-----------------------------
+  //Assignment Operator
 
+//$x=40;
+//$y=40;
+//echo ($x+=$y);
+//echo ('<br/>');
+//echo ($x-=$y);
+//echo ('<br/>');
+//echo ($x*=$y);
+//echo ('<br/>');
+//echo ($x/=$y);
+//echo ('<br/>');
+//echo ($x%=$y);
+//echo ('<br/>');
+//-------------
+//Conditional operator
+//$x=10;
+//$y=20;
+//echo($x>$Y);
+//echo('<br/>');
+//echo($x>=$y);
+//echo('<br/>');
+//echo($x<$y);
+//echo('<br/>');
+//echo($x==$y);
+//echo('<br/>');
+//echo($x!=$y);
+//echo('<br/>');
+//$x='20';
+//$x=20;
+//echo($x===$y);
+//echo('<br/>');
+//echo($x!==$y);
+//echo('<br/>');
+//-------------------------------
+//Logical Operator
+//$x=10;
+//$y=20;
+//$z=30;
+//echo(($x>$y)&&($x>$y));
+//echo('<br/>');
+//echo(($x>$y)&&($x<$y));
+//echo('<br/>');
+//echo(($x<$y)&&($x>$y));
+//echo('<br/>');
+//echo(($x<$y)&&($x<$y));
+//echo('<br/>');
+//echo(($x>$y)||($x>$y));
+//echo('<br/>');
+//echo(($x>$y)||($x<$y));
+//echo('<br/>');
+//echo(($x<$y)||($x>$y));
+//echo('<br/>');
+//echo(($x<$y)||($x<$y));
+//echo('<br/>');
 
+//$a=true;
+//echo (!a);
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+//$a=false;
+//echo (!a);
+//----------------------------------
 //statement
 /*
  * Single line statement
@@ -101,7 +169,10 @@
      * while
      * do while
      * foreach
+ *
  */
+ //Conditional Statement
+
 //$x=10;
 //$y=20;
 //$z =$x+$y;
@@ -109,6 +180,49 @@
 //    $z=$x+$y;
 //    echo $z;
 //}
+
+//$x=10;
+//$y=20;
+//if($x>$y){
+//echo ('Hello World');
+//}else{
+//echo ('Hello Javascript');
+//}
+
+
+//$x=100;
+//$y=20;
+//$z=40;
+//if($x>$y){
+//    echo ('Hello World');
+//}else if ($y>$z){
+// echo ('Hello Javascript');
+//}else if ($z<$x){
+//    echo ('Hello BITM');
+//}else{
+//    echo ('Hello Dhaka');
+//}
+//
+
+
+//$x=10;
+//switch ($x) {
+//    case 5:
+//        echo('Hello World');
+//        break;
+//    case 10:
+//        echo('Hello Bangladesh');
+//        break;
+//    case 15:
+//        echo('Hello Dhaka');
+//        break;
+//    default:
+//        echo ('Hello Khulna');
+//}
+
+
+
+
 
 ?>
 
